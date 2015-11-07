@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Font test 字型測試</title>
+    <meta charset="utf-8" />
+    <style>
+        .sans {
+            font-family: 'DejaVu Sans' /* linux */
+            ,-apple-system /*'San Francisco' mac 10.11 */
+            ,'Segoe UI' /* win > vista */
+            ,'Lucida Grande' /* mac */
+            ,'Tahoma' /* xp */
+            ,'Helvetica' /* old mac */
+            ,'Arial' /* old windows */
+            ,'Noto Sans CJK TC' /* 思源黑體 */
+            ,'WenQuanYi Zen Hei' /* linux 文泉驛正黑 */
+            ,'Droid Sans Fallback'
+            ,'PingFang TC' /* 蘋方-繁 mac > 10.11 */
+            ,'Heiti TC' /* 黑體-繁 mac > 10.6 */
+            ,'LiHei Pro' /* 儷黑 Pro mac */
+            ,'Microsoft JhengHei' /* 微軟正黑體 win > vista */
+            ,'SimHei' /* xp */
+            ,'Arial Unicode MS'
+            ,sans-serif;
+        }
+
+        .serif {
+            font-family: 'DejaVu Serif' /* linux */
+            ,'Times New Roman' /* win mac */
+            ,'AR PL UMing TW' /* 文鼎 宋 linux */
+            ,'LiSong Pro' /* 儷宋 Pro mac */
+            ,'PMingLiU' /* 新細明體 win */
+            ,serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="sans">a LARGE title 永 大標題 龍</h1>
+    <p class="sans">a serif illegal1 永 黑體無襯線</p>
+    <p class="serif">a sans illegal1 永 宋體有襯線</p>
+    <p style="font-family:'DejaVu Sans'">a DejaVu Sans</p>
+    <p style="font-family:-apple-system">a San Francisco</p>
+    <p style="font-family:'Segoe UI'">a Segoe UI</p>
+    <p style="font-family:'Lucida Grande'">a Lucida Grande</p>
+    <p style="font-family:'Tahoma'">a Tahoma</p>
+    <p style="font-family:'Helvetica'">a Helvetica</p>
+    <p style="font-family:'Arial'">a Arial</p>
+    <p style="font-family:'Noto Sans CJK TC'">永 思源黑體</p>
+    <p style="font-family:'WenQuanYi Zen Hei'">永 文泉驛正黑</p>
+    <p style="font-family:'Droid Sans Fallback'">永 Droid Sans Fallback</p>
+    <p style="font-family:'PingFang TC'">永 蘋方-繁</p>
+    <p style="font-family:'Heiti TC'">永 黑體-繁</p>
+    <p style="font-family:'LiHei Pro'">永 儷黑 Pro</p>
+    <p style="font-family:'Microsoft JhengHei'">永 微軟正黑體</p>
+    <p style="font-family:'SimHei'">永 xp 黑體</p>
+
+    <p style="font-family:'DejaVu Serif'">a DejaVu Serif</p>
+    <p style="font-family:'Times New Roman'">a Times New Roman</p>
+    <p style="font-family:'AR PL UMing TW'">永 文鼎 宋</p>
+    <p style="font-family:'LiSong Pro'">永 儷宋 Pro</p>
+    <p style="font-family:'PMingLiU'">永 新細明體</p>
+</body>
+</html>
