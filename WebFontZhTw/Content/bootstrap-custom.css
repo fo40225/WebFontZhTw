@@ -1,0 +1,19 @@
+﻿body {
+    font-family: -apple-system,'DejaVu Sans','Segoe UI','Lucida Grande','Tahoma','Helvetica','Arial','PingFang TC','Heiti TC','LiHei Pro','Noto Sans CJK TC','WenQuanYi Zen Hei','Microsoft JhengHei','SimHei','Droid Sans Fallback','Arial Unicode MS',sans-serif;
+}
+
+samp {
+    font-family: 'Menlo','Monaco','DejaVu Sans Mono','Consolas','Courier New','Noto Sans Mono CJK TC','WenQuanYi Zen Hei Mono','MingLiU',monospace;
+}
+
+.tooltip {
+    font-family: -apple-system,'DejaVu Sans','Segoe UI','Lucida Grande','Tahoma','Helvetica','Arial','PingFang TC','Heiti TC','LiHei Pro','Noto Sans CJK TC','WenQuanYi Zen Hei','Microsoft JhengHei','SimHei','Droid Sans Fallback','Arial Unicode MS',sans-serif;
+}
+
+.popover {
+    font-family: -apple-system,'DejaVu Sans','Segoe UI','Lucida Grande','Tahoma','Helvetica','Arial','PingFang TC','Heiti TC','LiHei Pro','Noto Sans CJK TC','WenQuanYi Zen Hei','Microsoft JhengHei','SimHei','Droid Sans Fallback','Arial Unicode MS',sans-serif;
+}
+
+.carousel-control .icon-next {
+    font-family: 'Georgia','DejaVu Serif','Times New Roman','Times','LiSong Pro','AR PL UMing TW','PMingLiU',serif;
+}

@@ -6,59 +6,90 @@
     <meta charset="utf-8" />
     <style>
         .sans {
-            font-family: 'DejaVu Sans' /* linux */
-            ,-apple-system /*'San Francisco' mac 10.11 */
+            font-family: -apple-system /*'San Francisco' mac 10.11 */
+            ,'DejaVu Sans' /* linux */
             ,'Segoe UI' /* win > vista */
             ,'Lucida Grande' /* mac */
             ,'Tahoma' /* xp */
             ,'Helvetica' /* old mac */
             ,'Arial' /* old windows */
-            ,'Noto Sans CJK TC' /* 思源黑體 */
-            ,'WenQuanYi Zen Hei' /* linux 文泉驛正黑 */
-            ,'Droid Sans Fallback'
             ,'PingFang TC' /* 蘋方-繁 mac > 10.11 */
             ,'Heiti TC' /* 黑體-繁 mac > 10.6 */
             ,'LiHei Pro' /* 儷黑 Pro mac */
+            ,'Noto Sans CJK TC' /* 思源黑體 */
+            ,'WenQuanYi Zen Hei' /* 文泉驛正黑 linux */
             ,'Microsoft JhengHei' /* 微軟正黑體 win > vista */
-            ,'SimHei' /* xp */
-            ,'Arial Unicode MS'
+            ,'SimHei' /* 黑體 xp */
+            ,'Droid Sans Fallback' /* linux Fallback */
+            ,'Arial Unicode MS' /* last Fallback */
             ,sans-serif;
         }
 
         .serif {
-            font-family: 'DejaVu Serif' /* linux */
-            ,'Times New Roman' /* win mac */
-            ,'AR PL UMing TW' /* 文鼎 宋 linux */
+            font-family: 'Georgia' /* mac */
+            ,'DejaVu Serif' /* linux */
+            ,'Times New Roman' /* win */
+            ,'Times' /* old mac */
             ,'LiSong Pro' /* 儷宋 Pro mac */
+            ,'AR PL UMing TW' /* 文鼎 宋 linux */
             ,'PMingLiU' /* 新細明體 win */
             ,serif;
+        }
+
+        .mono {
+            font-family: 'Menlo' /* mac > 10.6 */
+            ,'Monaco' /* mac */
+            ,'DejaVu Sans Mono' /* linux */
+            ,'Consolas' /* win */
+            ,'Courier New' /* old win */
+            ,'Noto Sans Mono CJK TC' /* 思源等寬黑體 */
+            ,'WenQuanYi Zen Hei Mono' /* 文泉驛等寬正黑 linux */
+            ,'MingLiU' /* 細明體 win */
+            ,monospace;
         }
     </style>
 </head>
 <body>
-    <h1 class="sans">a LARGE title 永 大標題 龍</h1>
+    <h1 class="sans">a LARGE title 永 大標題</h1>
     <p class="sans">a serif illegal1 永 黑體無襯線</p>
     <p class="serif">a sans illegal1 永 宋體有襯線</p>
-    <p style="font-family:'DejaVu Sans'">a DejaVu Sans</p>
-    <p style="font-family:-apple-system">a San Francisco</p>
-    <p style="font-family:'Segoe UI'">a Segoe UI</p>
-    <p style="font-family:'Lucida Grande'">a Lucida Grande</p>
-    <p style="font-family:'Tahoma'">a Tahoma</p>
-    <p style="font-family:'Helvetica'">a Helvetica</p>
-    <p style="font-family:'Arial'">a Arial</p>
-    <p style="font-family:'Noto Sans CJK TC'">永 思源黑體</p>
-    <p style="font-family:'WenQuanYi Zen Hei'">永 文泉驛正黑</p>
-    <p style="font-family:'Droid Sans Fallback'">永 Droid Sans Fallback</p>
-    <p style="font-family:'PingFang TC'">永 蘋方-繁</p>
-    <p style="font-family:'Heiti TC'">永 黑體-繁</p>
-    <p style="font-family:'LiHei Pro'">永 儷黑 Pro</p>
-    <p style="font-family:'Microsoft JhengHei'">永 微軟正黑體</p>
-    <p style="font-family:'SimHei'">永 xp 黑體</p>
+    <code class="mono">A piece of computer code 等寬 illegal 101 milliliter</code>
 
-    <p style="font-family:'DejaVu Serif'">a DejaVu Serif</p>
-    <p style="font-family:'Times New Roman'">a Times New Roman</p>
-    <p style="font-family:'AR PL UMing TW'">永 文鼎 宋</p>
-    <p style="font-family:'LiSong Pro'">永 儷宋 Pro</p>
-    <p style="font-family:'PMingLiU'">永 新細明體</p>
+    <p style="font-family:-apple-system">San Francisco The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'DejaVu Sans'">DejaVu Sans The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Segoe UI'">Segoe UI The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Lucida Grande'">Lucida Grande The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Tahoma'">Tahoma The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Helvetica'">Helvetica The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Arial'">Arial The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'PingFang TC'">蘋方-繁 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Heiti TC'">黑體-繁 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'LiHei Pro'">儷黑 Pro The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Noto Sans CJK TC'">思源黑體 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'WenQuanYi Zen Hei'">文泉驛正黑 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Microsoft JhengHei'">微軟正黑體 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'SimHei'">xp 黑體 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Droid Sans Fallback'">Droid Sans Fallback The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Arial Unicode MS'">Arial Unicode MS The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'sans-serif'">sans-serif The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+
+    <p style="font-family:'Georgia'">Georgia The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'DejaVu Serif'">DejaVu Serif The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Times New Roman'">Times New Roman The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'Times'">Times The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'LiSong Pro'">儷宋 Pro The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'AR PL UMing TW'">文鼎 宋 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'PMingLiU'">新細明體 The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+    <p style="font-family:'serif'">serif The quick brown fox jumps over the lazy dog 永東國鬱愛三力今酬鷹靈袋書 亮角骨滑過化麵廣房</p>
+
+    <p style="font-family:'Menlo'">Menlo 1milliliter等寬</p>
+    <p style="font-family:'Monaco'">Monaco 1milliliter等寬</p>
+    <p style="font-family:'DejaVu Sans Mono'">DejaVu Sans Mono 1milliliter等寬</p>
+    <p style="font-family:'Consolas'">Consolas 1milliliter等寬</p>
+    <p style="font-family:'Courier New'">Courier New 1milliliter等寬</p>
+    <p style="font-family:'Noto Sans Mono CJK TC'">思源等寬黑體 1milliliter等寬</p>
+    <p style="font-family:'WenQuanYi Zen Hei Mono'">文泉驛等寬正黑 1milliliter等寬</p>
+    <p style="font-family:'MingLiU'">細明體 1milliliter等寬</p>
+    <p style="font-family:'monospace'">monospace 1milliliter等寬</p>
 </body>
 </html>
